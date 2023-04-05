@@ -13,7 +13,7 @@
 #### pre-processing
 각 폴더내의 preprocess_1st.py, preprocess_2nd.py는 pandas를 사용하여 None 값을 가지는 행의 값들을 drop 하고, 분류해야할 라벨이 있는 y와 입력데이터 X로 나누는 코드입니다.
 
-### 데이터 분석
+#### 데이터 분석
 ~_analysis_RF.py와 ~_analysis_SVC.py 는 skit-learn 라이브러리를 사용하여 random forest와 SVC를 불러온 다음, 분류를 진행한 코드입니다. 추가적으로 분류를 위한 최적의 feature를 찾기 위해 RFECV를 사용하여 최적의 feature갯수를 구했습니다. 또한, 회사측에서 중요하다고 생각한 feature들만을 사용하였을 때의 성능확인도 진행하였습니다.
 
 
