@@ -8,6 +8,21 @@
 # 2022 산학협력 프로젝트
 팀원 - 김재호, 서승원, 박순혁, 윤하영 
 
+
+# 역할 소개 (김재호)
+- 프로젝트 기획 및 분석 방향 제시
+- 데이터 전처리, 클렌징 역할 수행
+- 데이터 시각화 파트 담당
+  - 시계열 데이터 파트 : Power BI 활용
+  - 센서별 변수 비교 : KNIME - plotly Rader 차트 활용
+  - 센서별 Box plot 비교 : Python seaborn활용
+
+![전처리 파트](https://github.com/countifs/Research_and_business_2022/blob/main/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![시각화 파트](https://github.com/countifs/Research_and_business_2022/blob/main/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+---
+
 ## 목표
 ### 1. 주어진 냉장고 센서 데이터셋을 사용하여 냉장고에 적상현상 발생을 감지하는 것
 ### 2. 추가적으로 보유하고 있는 냉장고 센서 데이터셋을 같이 활용하여 적상 및 냉매부족 현상 감지(냉매의 남은 용량을 10% 단위로 분류)
