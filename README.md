@@ -5,9 +5,13 @@
 이 프로젝트는 2022년도 산학협력 프로젝트에서 진행하였던 분석을 따로 정리한 것 입니다.
 주어진 데이터셋은 (주)제이오텍 에서 제공받은 데이터셋으로, 의료용 냉장고에 부착되어있는 센서들의 값들이 기록되어있습니다. 이 산학협력 프로젝트의 최종 목표는 주어진 센서들의 값들을 활용하여 의료용 냉장고에 적상 발생유무를 판단하는 것이었습니다. 적상이 있음, 없음에 대한 분류를 진행하기 위해, 중요도가 높은 센서들을 특정하고자 하였습니다. 제공되는 구글드라이브 내에 코드가 존재하며, '김재호' 폴더 내에 분석을 위해 작성한 코드가 업로드 되어있습니다. 
 [산학협력_2022](https://drive.google.com/drive/folders/16lO8i1p6F5wzyI3iiVYBizSwwf3HI0St?usp=share_link)
+
+<br>
+
 # 2022 산학협력 프로젝트
 팀원 - 김재호, 서승원, 박순혁, 윤하영 
 
+<br>
 
 # 역할 소개 (김재호)
 - 프로젝트 기획 및 분석 방향 제시
@@ -17,13 +21,28 @@
   - 센서별 변수 비교 : KNIME - plotly Rader 차트 활용
   - 센서별 Box plot 비교 : Python seaborn활용
 
-![전처리 파트](https://github.com/countifs/Research_and_business_2022/blob/main/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+![전처리 파트](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
 
-![시각화 파트](https://github.com/countifs/Research_and_business_2022/blob/main/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+![시각화 파트](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5-%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![프로젝트 기획 및 파일럿 테스트 진행](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%20-%20%EB%B6%84%EC%84%9D%EA%B8%B0%ED%9A%8D%20%EB%B0%8F%20%ED%8C%8C%EC%9D%BC%EB%9F%BF%20%ED%85%8C%EC%8A%A4%ED%8A%B8(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![데이터 시각화 with KNIME](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20with%20KNIME(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![데이터 시각화 예시 with KNIME](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20%EC%98%88%EC%8B%9C%20with%20KNIME(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![데이터 시각화 예시 with PowerBi](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20%EC%98%88%EC%8B%9C%20with%20PowerBi%20(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+![데이터 시각화 예시 with Python](https://github.com/countifs/Research_and_business_2022/blob/main/imgaes/%EC%82%B0%ED%95%99%ED%98%91%EB%A0%A5%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20%EC%98%88%EC%8B%9C%20with%20Python%20(%EA%B9%80%EC%9E%AC%ED%98%B8).png)
+
+<br>
 
 ---
 
+<br>
+
 ## 목표
+
 ### 1. 주어진 냉장고 센서 데이터셋을 사용하여 냉장고에 적상현상 발생을 감지하는 것
 ### 2. 추가적으로 보유하고 있는 냉장고 센서 데이터셋을 같이 활용하여 적상 및 냉매부족 현상 감지(냉매의 남은 용량을 10% 단위로 분류)
 
