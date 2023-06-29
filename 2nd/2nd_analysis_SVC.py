@@ -7,8 +7,8 @@
 import pandas as pd
 import numpy as np
 from preprocess_2nd import preprocessing_2
-train_data = pd.read_excel('./drive-download-20221227T023406Z-001/df_total_raw_train.xlsx')
-test_data = pd.read_excel('./drive-download-20221227T023406Z-001/df_total_raw_test.xlsx')
+train_data = pd.read_excel('-')
+test_data = pd.read_excel('-')
 
 
 
